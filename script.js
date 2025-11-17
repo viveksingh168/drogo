@@ -63,22 +63,22 @@ function takeCommand(message) {
     else if (message.includes("how are you")||message.includes("how r u ")) {
         speak("I'm just a computer program, so I don't have feelings, but I'm running perfectly and ready to help you!");
          }
-    else if (message.includes("what is gdp")||message.includes("explain gdp ")) {
+    else if (message.includes("what is gdp")||message.includes("Explain gdp ")) {
         speak("GDP is the total monetary value of all final goods and services produced within a country’s borders in a specific time period, usually one year. It shows the economic health of a country and how much it produces and earns.");
           }
-    else if (message.includes("what is signal")||message.includes("explain signal ")) {
+    else if (message.includes("what is signal")||message.includes("Explain signal ")) {
         speak("A signal is any physical quantity that carries information and varies with time.");
          }
-    else if (message.includes("what is software piradigm")||message.includes("explain software piradigm ")) {
+    else if (message.includes("what is software piradigm")||message.includes("Explain software piradigm ")) {
         speak("A software paradigm is a model or style of programming used to design, develop, and structure software. It provides a set of rules, methods, and principles that guide how software should be written and organized. Different paradigms help solve different kinds of problems in an efficient way.");
           }
     else if (message.includes("what is system")||message.includes("explain system ")) {
         speak("  A system is a device or process that takes a signal as input and produces another signal as output.");
          }
-    else if (message.includes("what is science")||message.includes("explain science ")) {
+    else if (message.includes("what is science")||message.includes("Explain science ")) {
         speak(" Science is the systematic study of the natural world through observation, experimentation, and logical reasoning.");
          }
-    else if (message.includes("what is software")||message.includes("explain software ")) {
+    else if (message.includes("what is software")||message.includes("Explain software ")) {
         speak(" Software is a collection of programs, instructions, and data that tell a computer how to perform specific tasks. It controls the computer’s hardware and allows users to operate the system, run applications, and solve problems.");
     }
     else if (message.includes("hey, siri")||message.includes("hey bixby ")||message.includes("ok, google")||message.includes("hello gemini")||message.includes("Hi Bixby ")) {
