@@ -49,7 +49,7 @@ function takeCommand(message) {
     if (message.includes("hello") || message.includes("hey drogo")) {
         speak("hello sir, what can i help you");
     } else if (message.includes("who r u")||message.includes("hu r u")) {
-        speak("i am drogo , virtual assistant , created by vivek and harshit");
+        speak("i am drogo , virtual assistant , created by vivek ");
     }
     else if (message.includes("joke for me")||message.includes("crack a joke") ||message.includes("joke")) {
         speak("Why did the student eat his homework? Because the teacher told him it was a piece of cake.");
