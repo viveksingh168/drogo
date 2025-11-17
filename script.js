@@ -63,8 +63,11 @@ function takeCommand(message) {
     else if (message.includes("how are you")||message.includes("how r u ")) {
         speak("I'm just a computer program, so I don't have feelings, but I'm running perfectly and ready to help you!");
     }
-    else if (message.includes("hey siri")||message.includes("hey bixby ")||message.includes("ok, google")||message.includes("hello gemini")||message.includes("hi bixby ")) {
+    else if (message.includes("hey, siri")||message.includes("hey bixby ")||message.includes("ok, google")||message.includes("hello gemini")||message.includes("Hi Bixby ")) {
         speak("sorry...........................! call me by my name....................................!  i am drogo");
+        }
+    else if (message.includes("signal and  system")||message.includes("what is signal and what is system ")||message.includes("what is signal")||message.includes("what is system")||message.includes("explain signal and system ")) {
+        speak("A signal is any physical quantity that carries information and varies with time.  and       A system is a device or process that takes a signal as input and produces another signal as output.");
     } 
      else if (message.includes("how are you")||message.includes("how r u")||message.includes("how are you doing")||message.includes("how r u doing")||message.includes("how r you")) {
         speak("i am good............................................!  how about you");
