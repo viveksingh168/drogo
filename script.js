@@ -48,13 +48,13 @@ function takeCommand(message) {
 
     if (message.includes("hello") || message.includes("hey drogo")) {
         speak("hello sir, what can i help you");
-    } else if (message.includes("who r u")||message.includes("hu r u")) {
-        speak("i am drogo , virtual assistant , created by vivek ");
+    } else if (message.includes("who r u")||message.includes("hu r u")||message.includes("who are you")||message.includes("who are you")) {
+        speak("i am drogo , virtual assistant , created by vivek and harshit");
     }
     else if (message.includes("joke for me")||message.includes("crack a joke") ||message.includes("joke")) {
         speak("Why did the student eat his homework? Because the teacher told him it was a piece of cake.");
     } 
-    else if (message.includes("i love u")||message.includes("i hate you")) {
+    else if (message.includes("i love u")||message.includes("i hate you")|| message.includes("i love you")||message.includes("i hate you")) {
         speak("i am a  virtual assistant you can love me hate me i have no feelings");
     } 
     else if (message.includes("i am very sad")||message.includes("no one loves me ")) {
@@ -63,14 +63,23 @@ function takeCommand(message) {
     else if (message.includes("how are you")||message.includes("how r u ")) {
         speak("I'm just a computer program, so I don't have feelings, but I'm running perfectly and ready to help you!");
     }
-    else if (message.includes("hey siri")||message.includes("hey bixby ")||message.includes("ok google")||message.includes("hello gemini")||message.includes("hi bixby ")) {
-        speak("who is this fucking bitch.... is she your exx  ");
+    else if (message.includes("hey siri")||message.includes("hey bixby ")||message.includes("ok, google")||message.includes("hello gemini")||message.includes("hi bixby ")) {
+        speak("sorry...........................! call me by my name....................................!  i am drogo");
+    } 
+     else if (message.includes("how are you")||message.includes("how r u")||message.includes("how are you doing")||message.includes("how r u doing")||message.includes("how r you")) {
+        speak("i am good............................................!  how about you");
+    }
+    else if (message.includes("i am good")||message.includes("well i am good")||message.includes("absolutly fine")||message.includes("awesome")||message.includes("great")) {
+        speak("oh! thank youuuuuuuuuuu............................!  ask me anything");
+    }
+    else if (message.includes("are you a robot")||message.includes("are you gay")||message.includes("you are gay")||message.includes("fuck you")||message.includes("lasbian")) {
+        speak(" I'm not . I'm an AI assistant built by vivek.");
     } 
      else if (message.includes("good morning")) {
         speak("good morning sir  ");
     } 
     else if (message.includes("good afternoon")) {
-        speak("good afternoon sir  ");
+        speak("good after noon sir  ");
     }
     else if (message.includes("good evening")) {
         speak("good evening sir  ");
